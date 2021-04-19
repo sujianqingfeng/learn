@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sujianqingfeng/learn-js/issues"
   },
-  "homepage": "https://github.com/sujianqingfeng/learn-js#readme"
+  "homepage": "https://github.com/sujianqingfeng/learn-js#readme",
+  "devDependencies": {
+   "typescript": "^4.2.4"
+  }
 }
