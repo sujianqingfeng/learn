@@ -17,6 +17,12 @@
   },
   "homepage": "https://github.com/sujianqingfeng/learn-js#readme",
   "devDependencies": {
-   "typescript": "^4.2.4"
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "crypto-js": "^4.1.1",
+    "jsencrypt": "^3.2.1",
+    "node-jsencrypt": "^1.0.0"
   }
 }
