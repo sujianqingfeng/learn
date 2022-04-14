@@ -1,21 +1,21 @@
 {
   "name": "learn",
   "version": "1.0.0",
-  "description": "",
+  "description": "learn note",
   "main": "index.js",
   "scripts": {
     "test": "vitest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sujianqingfeng/learn-js.git"
+    "url": "git+https://github.com/sujianqingfeng/learn.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sujianqingfeng/learn-js/issues"
+    "url": "https://github.com/sujianqingfeng/learn/issues"
   },
-  "homepage": "https://github.com/sujianqingfeng/learn-js#readme",
+  "homepage": "https://github.com/sujianqingfeng/learn#readme",
   "devDependencies": {
     "typescript": "^4.2.4",
     "vitest": "^0.9.3"
