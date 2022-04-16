@@ -1,4 +1,4 @@
-export function twoSum(nums: number[], target: number) {
+export function twoSum1(nums: number[], target: number) {
   for (let i = 0; i < nums.length; i++) {
     const n = nums[i];
     for (let j = i + 1; j < nums.length; j++) {
@@ -9,3 +9,21 @@ export function twoSum(nums: number[], target: number) {
     }
   }
 }
+
+
+export function twoSum2(nums:number[],target: number){
+
+  const indexMap = new Map()
+
+  for (let i = 0; i < nums.length; i++) {
+    const n = nums[i]
+    const v = target - n
+    if(indexMap.has(v)){
+      return [indexMap.get(v),i]
+    }
+    indexMap.set(n,i)
+  }
+   
+}
+
+export const twoSum = twoSum2;
