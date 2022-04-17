@@ -7,6 +7,5 @@ export function lengthOfLIS(numList: number[]) {
       }
     }
   }
-  console.log(result);
   return Math.max(...result);
 }
