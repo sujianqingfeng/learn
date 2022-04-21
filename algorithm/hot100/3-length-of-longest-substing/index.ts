@@ -29,4 +29,29 @@ export function lengthOfLongestSubstring1(s:string){
 }
 
 
-export const lengthOfLongestSubstring = lengthOfLongestSubstring1
+
+function lengthOfLongestSubstring2(s:string){
+
+  const n = s.length
+  let max = 0, left = 0, right = 0
+  const map = new Map()
+
+  while (right < n) {
+    const char = s[right]
+
+    // 如果存在重复就向左移动一位 通过之前存储的位置来获取索引
+    if(map.has(char)){
+      left = Math.max(left,map.get(char) + 1)
+    }
+
+    // 存下值和索引
+    map.set(char,right)
+    max = Math.max(max, right - left + 1)
+    right ++
+  }
+  
+  return max
+}
+
+
+export const lengthOfLongestSubstring = lengthOfLongestSubstring2
