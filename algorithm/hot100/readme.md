@@ -8,3 +8,4 @@
 - [Z 字形变换](./6-zigzag-conversion/index.ts)
 - [整数反转](./7-reverse-integer/index.ts)
 - [字符串转换整数](./8-string-to-integer-atoi/index.ts)
+- [回文数](./9-palindrome-number/index.ts)
