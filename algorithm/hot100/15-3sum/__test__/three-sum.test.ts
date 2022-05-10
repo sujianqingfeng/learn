@@ -27,7 +27,7 @@ describe("three-sum", () => {
     expect(result).toEqual(res);
   });
 
-  it("1", () => {
+  it("4", () => {
     const nums = [1, -1, -1, 0];
     const res = [[-1, 0, 1]];
     const result = threeSum(nums);
