@@ -17,4 +17,6 @@
 - [三数之和](./15-3sum/index.ts)
 - [最接近的三数之和](./16-3sum-closest/index.ts)
 
+- [搜索插入的位置](./35-search-insert-position/index.ts)
+
 - [二分查找](./704-binary-search/index.ts)
