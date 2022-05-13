@@ -17,6 +17,7 @@
 - [三数之和](./15-3sum/index.ts)
 - [最接近的三数之和](./16-3sum-closest/index.ts)
 
+- [在排序数组中查找元素的第一个和最后一个位置](./34-find-first-and-last-position-of-element-in-sorted-array/index.ts)
 - [搜索插入的位置](./35-search-insert-position/index.ts)
 
 - [二分查找](./704-binary-search/index.ts)
