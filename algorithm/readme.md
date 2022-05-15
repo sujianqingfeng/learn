@@ -23,3 +23,5 @@
 - [搜索插入的位置](./35-search-insert-position/index.ts)
 
 - [二分查找](./704-binary-search/index.ts)
+
+- [有序数组的平方](./977-squares-of-a-sorted-array/index.ts)
