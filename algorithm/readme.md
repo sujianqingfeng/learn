@@ -17,6 +17,7 @@
 - [三数之和](./15-3sum/index.ts)
 - [最接近的三数之和](./16-3sum-closest/index.ts)
 
+- [删除有序数组中的重复项](./26-remove-duplicates/index.ts)
 - [移除元素](./27-remove-element/index.ts)
 
 - [在排序数组中查找元素的第一个和最后一个位置](./34-find-first-and-last-position-of-element-in-sorted-array/index.ts)
