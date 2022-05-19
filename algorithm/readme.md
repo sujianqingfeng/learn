@@ -23,6 +23,8 @@
 - [在排序数组中查找元素的第一个和最后一个位置](./34-find-first-and-last-position-of-element-in-sorted-array/index.ts)
 - [搜索插入的位置](./35-search-insert-position/index.ts)
 
+- [旋转图像](./48-rotate-image/index.ts)
+
 -[最小覆盖字串](./76-min-window/index.ts)
 
 - [长度最小的子数组](./209-minimun-size-subarray-sum/index.ts)
