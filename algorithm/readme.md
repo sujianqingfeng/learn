@@ -25,6 +25,8 @@
 
 - [旋转图像](./48-rotate-image/index.ts)
 
+-[最后一个单词的长度](./58-length-of-last-word/index.ts)
+
 -[最小覆盖字串](./76-min-window/index.ts)
 
 - [长度最小的子数组](./209-minimun-size-subarray-sum/index.ts)
