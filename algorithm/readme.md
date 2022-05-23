@@ -34,6 +34,8 @@
 
 - [长度最小的子数组](./209-minimun-size-subarray-sum/index.ts)
 
+- [最大连续 1 的个数](./485-max-consecutive-ones/index.ts)
+
 - [二分查找](./704-binary-search/index.ts)
 
 - [有序数组的平方](./977-squares-of-a-sorted-array/index.ts)
