@@ -36,6 +36,8 @@
 
 - [最大连续 1 的个数](./485-max-consecutive-ones/index.ts)
 
+- [提莫攻击](./746-min-cost-climbing-stairs/index.ts)
+
 - [二分查找](./704-binary-search/index.ts)
 
 - [有序数组的平方](./977-squares-of-a-sorted-array/index.ts)
