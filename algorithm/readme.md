@@ -34,6 +34,7 @@
 
 - [长度最小的子数组](./209-minimun-size-subarray-sum/index.ts)
 
+- [第三大的数](./414-third-maximun-number/index.ts)
 - [最大连续 1 的个数](./485-max-consecutive-ones/index.ts)
 
 - [提莫攻击](./746-min-cost-climbing-stairs/index.ts)
