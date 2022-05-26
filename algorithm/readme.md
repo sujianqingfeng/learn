@@ -37,6 +37,8 @@
 - [第三大的数](./414-third-maximun-number/index.ts)
 - [最大连续 1 的个数](./485-max-consecutive-ones/index.ts)
 
+- [三个数的最大乘积](./628-maximum-product-of-three-numbers/index.ts)
+
 - [提莫攻击](./746-min-cost-climbing-stairs/index.ts)
 
 - [二分查找](./704-binary-search/index.ts)
