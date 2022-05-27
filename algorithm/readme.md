@@ -39,6 +39,8 @@
 
 - [三个数的最大乘积](./628-maximum-product-of-three-numbers/index.ts)
 
+- [错误的集合](./645-set-mismatch/index.ts)
+
 - [提莫攻击](./746-min-cost-climbing-stairs/index.ts)
 
 - [二分查找](./704-binary-search/index.ts)
