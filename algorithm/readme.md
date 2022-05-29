@@ -35,6 +35,9 @@
 - [长度最小的子数组](./209-minimun-size-subarray-sum/index.ts)
 
 - [第三大的数](./414-third-maximun-number/index.ts)
+
+- [数组中重复的数据](./442-find-all-duplicates-in-an-array/index.ts)
+
 - [找到所有数字中消失的数字](./448-find-disappeared-numbers/index.ts)
 - [最大连续 1 的个数](./485-max-consecutive-ones/index.ts)
 
