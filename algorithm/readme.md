@@ -23,6 +23,8 @@
 - [在排序数组中查找元素的第一个和最后一个位置](./34-find-first-and-last-position-of-element-in-sorted-array/index.ts)
 - [搜索插入的位置](./35-search-insert-position/index.ts)
 
+- [缺失的数](./41-first-missing-positive/index.ts)
+
 - [旋转图像](./48-rotate-image/index.ts)
 
 - [螺旋矩阵](./54-spiral-matrix/index.ts)
