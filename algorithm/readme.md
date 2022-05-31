@@ -36,6 +36,8 @@
 
 - [长度最小的子数组](./209-minimun-size-subarray-sum/index.ts)
 
+- [H 指数](./274-h-index/index.ts)
+
 - [第三大的数](./414-third-maximun-number/index.ts)
 
 - [数组中重复的数据](./442-find-all-duplicates-in-an-array/index.ts)
