@@ -18,7 +18,7 @@
   "homepage": "https://github.com/sujianqingfeng/learn#readme",
   "devDependencies": {
     "typescript": "^4.2.4",
-    "vitest": "^0.9.3"
+    "vitest": "^0.13.1"
   },
   "dependencies": {
     "axios": "^0.21.1",
