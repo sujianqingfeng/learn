@@ -1,4 +1,4 @@
-lockfileVersion: 5.4
+lockfileVersion: 5.3
 
 specifiers:
   axios: ^0.21.1
@@ -6,7 +6,7 @@ specifiers:
   jsencrypt: ^3.2.1
   node-jsencrypt: ^1.0.0
   typescript: ^4.2.4
-  vitest: ^0.9.3
+  vitest: ^0.13.1
 
 dependencies:
   axios: registry.npmmirror.com/axios/0.21.4
@@ -16,7 +16,7 @@ dependencies:
   typescript: registry.npmmirror.com/typescript/4.6.3
 
 devDependencies:
-  vitest: registry.npmmirror.com/vitest/0.9.3
+  vitest: registry.npmmirror.com/vitest/0.13.1
 
 packages:
 
@@ -76,6 +76,20 @@ packages:
     name: crypto-js
     version: 4.1.1
     dev: false
+
+  registry.npmmirror.com/debug/4.3.4:
+    resolution: {integrity: sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/debug/-/debug-4.3.4.tgz}
+    name: debug
+    version: 4.3.4
+    engines: {node: '>=6.0'}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
+    dependencies:
+      ms: registry.npmmirror.com/ms/2.1.2
+    dev: true
 
   registry.npmmirror.com/deep-eql/3.0.1:
     resolution: {integrity: sha512-+QeIQyN5ZuO+3Uk5DYh6/1eKO0m0YmJFGNmFHGACpf1ClL1nmlV/p4gNgbl2pJGxgXb4faqo6UE+M5ACEMyVcw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/deep-eql/-/deep-eql-3.0.1.tgz}
@@ -440,10 +454,16 @@ packages:
       dom-walk: registry.npmmirror.com/dom-walk/0.1.2
     dev: false
 
-  registry.npmmirror.com/nanoid/3.3.2:
-    resolution: {integrity: sha512-CuHBogktKwpm5g2sRgv83jEy2ijFzBwMoYA60orPDR7ynsLijJDqgsi4RDGj3OJpy3Ieb+LYwiRmIOGyytgITA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/nanoid/-/nanoid-3.3.2.tgz}
+  registry.npmmirror.com/ms/2.1.2:
+    resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/ms/-/ms-2.1.2.tgz}
+    name: ms
+    version: 2.1.2
+    dev: true
+
+  registry.npmmirror.com/nanoid/3.3.4:
+    resolution: {integrity: sha512-MqBkQh/OHTS2egovRtLk45wEyNXwF+cokD+1YPf9u5VfJiRdAiRwB2froX5Co9Rh20xs4siNPm8naNotSD6RBw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/nanoid/-/nanoid-3.3.4.tgz}
     name: nanoid
-    version: 3.3.2
+    version: 3.3.4
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
     dev: true
@@ -474,13 +494,13 @@ packages:
     version: 1.0.0
     dev: true
 
-  registry.npmmirror.com/postcss/8.4.12:
-    resolution: {integrity: sha512-lg6eITwYe9v6Hr5CncVbK70SoioNQIq81nsaG86ev5hAidQvmOeETBqs7jm43K2F5/Ley3ytDtriImV6TpNiSg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/postcss/-/postcss-8.4.12.tgz}
+  registry.npmmirror.com/postcss/8.4.14:
+    resolution: {integrity: sha512-E398TUmfAYFPBSdzgeieK2Y1+1cpdxJx8yXbK/m57nRhKSmk1GB2tO4lbLBtlkfPQTDKfe4Xqv1ASWPpayPEig==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/postcss/-/postcss-8.4.14.tgz}
     name: postcss
-    version: 8.4.12
+    version: 8.4.14
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
-      nanoid: registry.npmmirror.com/nanoid/3.3.2
+      nanoid: registry.npmmirror.com/nanoid/3.3.4
       picocolors: registry.npmmirror.com/picocolors/1.0.0
       source-map-js: registry.npmmirror.com/source-map-js/1.0.2
     dev: true
@@ -527,10 +547,10 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  registry.npmmirror.com/tinypool/0.1.2:
-    resolution: {integrity: sha512-fvtYGXoui2RpeMILfkvGIgOVkzJEGediv8UJt7TxdAOY8pnvUkFg/fkvqTfXG9Acc9S17Cnn1S4osDc2164guA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/tinypool/-/tinypool-0.1.2.tgz}
+  registry.npmmirror.com/tinypool/0.1.3:
+    resolution: {integrity: sha512-2IfcQh7CP46XGWGGbdyO4pjcKqsmVqFAPcXfPxcPXmOWt9cYkTP9HcDmGgsfijYoAEc4z9qcpM/BaBz46Y9/CQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/tinypool/-/tinypool-0.1.3.tgz}
     name: tinypool
-    version: 0.1.2
+    version: 0.1.3
     engines: {node: '>=14.0.0'}
     dev: true
 
@@ -556,10 +576,10 @@ packages:
     hasBin: true
     dev: false
 
-  registry.npmmirror.com/vite/2.9.4:
-    resolution: {integrity: sha512-7pO6ruZMsyTpaPB7kGtW+yj15Ze5g+E4w4Ramk1sAJLIuI4uPd5sauqubmZNpq0Yc1vLVxoXRf2Uj+qWxk5aXw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vite/-/vite-2.9.4.tgz}
+  registry.npmmirror.com/vite/2.9.9:
+    resolution: {integrity: sha512-ffaam+NgHfbEmfw/Vuh6BHKKlI/XIAhxE5QSS7gFLIngxg171mg1P3a4LSRME0z2ZU1ScxoKzphkipcYwSD5Ew==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vite/-/vite-2.9.9.tgz}
     name: vite
-    version: 2.9.4
+    version: 2.9.9
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:
@@ -575,17 +595,17 @@ packages:
         optional: true
     dependencies:
       esbuild: registry.npmmirror.com/esbuild/0.14.36
-      postcss: registry.npmmirror.com/postcss/8.4.12
+      postcss: registry.npmmirror.com/postcss/8.4.14
       resolve: registry.npmmirror.com/resolve/1.22.0
       rollup: registry.npmmirror.com/rollup/2.70.1
     optionalDependencies:
       fsevents: registry.npmmirror.com/fsevents/2.3.2
     dev: true
 
-  registry.npmmirror.com/vitest/0.9.3:
-    resolution: {integrity: sha512-hKjqdBI732cV5giNLERyAsaJBebstrX5mvTbZr+jUDYUHnX1O4DpAJcHtqBOutuBi7lVIGQ5IF8eWvHHqbCHBA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vitest/-/vitest-0.9.3.tgz}
+  registry.npmmirror.com/vitest/0.13.1:
+    resolution: {integrity: sha512-CfSBf7YFw/i8HumSUQRtZKs0aV91DC9WU8nAgIJAlawKHaFuPHQohDwOTPIFgrxySiuFYUa0Yohf9gDFfBwjxA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vitest/-/vitest-0.13.1.tgz}
     name: vitest
-    version: 0.9.3
+    version: 0.13.1
     engines: {node: '>=v14.16.0'}
     hasBin: true
     peerDependencies:
@@ -606,12 +626,14 @@ packages:
       '@types/chai': registry.npmmirror.com/@types/chai/4.3.1
       '@types/chai-subset': registry.npmmirror.com/@types/chai-subset/1.3.3
       chai: registry.npmmirror.com/chai/4.3.6
+      debug: registry.npmmirror.com/debug/4.3.4
       local-pkg: registry.npmmirror.com/local-pkg/0.4.1
-      tinypool: registry.npmmirror.com/tinypool/0.1.2
+      tinypool: registry.npmmirror.com/tinypool/0.1.3
       tinyspy: registry.npmmirror.com/tinyspy/0.3.2
-      vite: registry.npmmirror.com/vite/2.9.4
+      vite: registry.npmmirror.com/vite/2.9.9
     transitivePeerDependencies:
       - less
       - sass
       - stylus
+      - supports-color
     dev: true
