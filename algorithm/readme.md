@@ -51,6 +51,7 @@
 - [三个数的最大乘积](./628-maximum-product-of-three-numbers/index.ts)
 
 - [错误的集合](./645-set-mismatch/index.ts)
+- [非递减数列](./665-non-descreasing-array/index.ts)
 - [数组的度](./697-degree-of-an-array/index.ts)
 
 - [提莫攻击](./746-min-cost-climbing-stairs/index.ts)
