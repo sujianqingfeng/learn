@@ -34,6 +34,8 @@
 
 - [最小覆盖字串](./76-min-window/index.ts)
 
+- [杨辉三角](./118-pascals-triangle/index.ts)
+
 - [只出现一次的数字](./136-single-number/index.ts)
 
 - [长度最小的子数组](./209-minimun-size-subarray-sum/index.ts)
