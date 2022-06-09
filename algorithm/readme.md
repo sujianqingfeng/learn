@@ -45,6 +45,7 @@
 - [移动零](./283-move-zeroes/index.ts)
 
 - [第三大的数](./414-third-maximun-number/index.ts)
+- [甲板上的战舰](./419-battleships-in-a-board/index.ts)
 
 - [数组中重复的数据](./442-find-all-duplicates-in-an-array/index.ts)
 
