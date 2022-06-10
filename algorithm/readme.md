@@ -38,6 +38,7 @@
 - [杨辉三角 II](./119-pascals-triangle-ii/index.ts)
 
 - [只出现一次的数字](./136-single-number/index.ts)
+- [轮转数组](./189-rotate-array/index.ts)
 
 - [长度最小的子数组](./209-minimun-size-subarray-sum/index.ts)
 
