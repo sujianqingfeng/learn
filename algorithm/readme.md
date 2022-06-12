@@ -55,6 +55,7 @@
 - [最小操作次数使数组元素相等](./453-minimun-moves-to-equal-array-elements/index.ts)
 - [最大连续 1 的个数](./485-max-consecutive-ones/index.ts)
 
+- [对角线遍历](./498-diagonal-traverse/index.ts)
 - [范围求和 II](./598-range-addition-ii/index.ts)
 
 - [三个数的最大乘积](./628-maximum-product-of-three-numbers/index.ts)
