@@ -32,6 +32,8 @@
 - [最后一个单词的长度](./58-length-of-last-word/index.ts)
 - [螺旋矩阵 II](./59-spiral-matrix-ii/index.ts)
 
+- [矩阵置零](./73-set-matrix-zeroes/index.ts)
+
 - [最小覆盖字串](./76-min-window/index.ts)
 
 - [杨辉三角](./118-pascals-triangle/index.ts)
