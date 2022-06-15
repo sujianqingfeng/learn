@@ -46,6 +46,7 @@
 
 - [H 指数](./274-h-index/index.ts)
 - [移动零](./283-move-zeroes/index.ts)
+- [生命游戏](./289-game-of-life/index.ts)
 - [旋转函数](./396-rotate-function/index.ts)
 
 - [第三大的数](./414-third-maximun-number/index.ts)
