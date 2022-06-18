@@ -49,6 +49,7 @@
 - [生命游戏](./289-game-of-life/index.ts)
 
 - [区域和检索](./303-range-sum-query-mutable/index.ts)
+- [二维区域和检索 - 矩阵不可变](./304-range-sum-query-2d-immutable/index.ts)
 - [旋转函数](./396-rotate-function/index.ts)
 
 - [第三大的数](./414-third-maximun-number/index.ts)
