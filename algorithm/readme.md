@@ -44,6 +44,8 @@
 
 - [长度最小的子数组](./209-minimun-size-subarray-sum/index.ts)
 
+- [除自身以外数组的乘积](./238-product-of-array-except-self/index.ts)
+
 - [H 指数](./274-h-index/index.ts)
 - [移动零](./283-move-zeroes/index.ts)
 - [生命游戏](./289-game-of-life/index.ts)
