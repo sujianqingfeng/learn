@@ -64,6 +64,7 @@
 - [最大连续 1 的个数](./485-max-consecutive-ones/index.ts)
 
 - [对角线遍历](./498-diagonal-traverse/index.ts)
+- [检查大写字母](./520-detect-capital/index.ts)
 - [重塑矩阵](./566-reshape-the-matrix/index.ts)
 - [范围求和 II](./598-range-addition-ii/index.ts)
 
