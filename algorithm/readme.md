@@ -38,6 +38,7 @@
 
 - [杨辉三角](./118-pascals-triangle/index.ts)
 - [杨辉三角 II](./119-pascals-triangle-ii/index.ts)
+- [验证回文串](./125-valid-palindrome/index.ts)
 
 - [只出现一次的数字](./136-single-number/index.ts)
 - [轮转数组](./189-rotate-array/index.ts)
