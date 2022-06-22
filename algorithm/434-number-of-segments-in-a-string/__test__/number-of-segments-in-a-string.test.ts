@@ -9,4 +9,11 @@ describe("count-segments", () => {
     const result = countSegments(s)
     expect(result).toEqual(res)
   })
+
+  it("2", () => {
+    const s = ""
+    const res = 0
+    const result = countSegments(s)
+    expect(result).toEqual(res)
+  })
 })
