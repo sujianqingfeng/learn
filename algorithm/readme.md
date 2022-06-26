@@ -41,6 +41,7 @@
 - [验证回文串](./125-valid-palindrome/index.ts)
 
 - [只出现一次的数字](./136-single-number/index.ts)
+- [颠倒字符串中的单词](./151-reverse-words-in-a-string/index.ts)
 - [轮转数组](./189-rotate-array/index.ts)
 
 - [长度最小的子数组](./209-minimun-size-subarray-sum/index.ts)
