@@ -54,6 +54,7 @@
 - [区域和检索](./303-range-sum-query-mutable/index.ts)
 - [二维区域和检索 - 矩阵不可变](./304-range-sum-query-2d-immutable/index.ts)
 - [字符串中的第一个唯一字符](./387-first-unique-character-in-a-string/index.ts)
+- [找不同](./389-find-the-difference/index.ts)
 - [旋转函数](./396-rotate-function/index.ts)
 
 - [第三大的数](./414-third-maximun-number/index.ts)
