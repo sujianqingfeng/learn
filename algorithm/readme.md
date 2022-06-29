@@ -57,6 +57,8 @@
 
 - [反转字符串](./344-reverse-string/index.ts)
 - [赎金信](./383-ransom-note/index.t)
+- [字符串中的第一个唯一字符](./387-first-unique-character-in-a-string/index.ts)
+- [找不同](./389-find-the-difference/index.ts)
 - [旋转函数](./396-rotate-function/index.ts)
 
 - [第三大的数](./414-third-maximun-number/index.ts)
