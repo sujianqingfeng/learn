@@ -56,6 +56,7 @@
 - [二维区域和检索 - 矩阵不可变](./304-range-sum-query-2d-immutable/index.ts)
 
 - [反转字符串](./344-reverse-string/index.ts)
+- [赎金信](./383-ransom-note/index.t)
 - [旋转函数](./396-rotate-function/index.ts)
 
 - [第三大的数](./414-third-maximun-number/index.ts)
@@ -70,8 +71,8 @@
 
 - [对角线遍历](./498-diagonal-traverse/index.ts)
 - [检查大写字母](./520-detect-capital/index.ts)
-- [反转字符串II](./541-reverse-string-ii/index.ts)
-- [反转字符串中的单词III](./557-reverse-words-in-a-string-iii/index.ts)
+- [反转字符串 II](./541-reverse-string-ii/index.ts)
+- [反转字符串中的单词 III](./557-reverse-words-in-a-string-iii/index.ts)
 - [重塑矩阵](./566-reshape-the-matrix/index.ts)
 - [范围求和 II](./598-range-addition-ii/index.ts)
 
