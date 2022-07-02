@@ -26,6 +26,7 @@
 - [缺失的数](./41-first-missing-positive/index.ts)
 
 - [旋转图像](./48-rotate-image/index.ts)
+- [字母异位词分组](./49-group-anagrams/index.ts)
 
 - [螺旋矩阵](./54-spiral-matrix/index.ts)
 
@@ -47,6 +48,7 @@
 - [长度最小的子数组](./209-minimun-size-subarray-sum/index.ts)
 
 - [除自身以外数组的乘积](./238-product-of-array-except-self/index.ts)
+- [有效的字母异位词](./242-valid-anagram/index.ts)
 
 - [H 指数](./274-h-index/index.ts)
 - [移动零](./283-move-zeroes/index.ts)
