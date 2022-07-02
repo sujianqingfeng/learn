@@ -68,6 +68,7 @@
 - [数组中重复的数据](./442-find-all-duplicates-in-an-array/index.ts)
 
 - [找到所有数字中消失的数字](./448-find-disappeared-numbers/index.ts)
+- [根据字符出现频率排序](./451-sort-characters-by-frequency/index.ts)
 - [最小操作次数使数组元素相等](./453-minimun-moves-to-equal-array-elements/index.ts)
 - [最大连续 1 的个数](./485-max-consecutive-ones/index.ts)
 
