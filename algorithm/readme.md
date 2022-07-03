@@ -65,6 +65,7 @@
 
 - [第三大的数](./414-third-maximun-number/index.ts)
 - [甲板上的战舰](./419-battleships-in-a-board/index.ts)
+- [从英文中重建数字](./423-reconstruct-orginal-digits-from-english/index.ts)
 - [字符串中的单词数](./434-number-of-segments-in-a-string/index.ts)
 
 - [数组中重复的数据](./442-find-all-duplicates-in-an-array/index.ts)
