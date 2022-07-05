@@ -65,11 +65,13 @@
 
 - [第三大的数](./414-third-maximun-number/index.ts)
 - [甲板上的战舰](./419-battleships-in-a-board/index.ts)
+- [从英文中重建数字](./423-reconstruct-orginal-digits-from-english/index.ts)
 - [字符串中的单词数](./434-number-of-segments-in-a-string/index.ts)
 
 - [数组中重复的数据](./442-find-all-duplicates-in-an-array/index.ts)
 
 - [找到所有数字中消失的数字](./448-find-disappeared-numbers/index.ts)
+- [根据字符出现频率排序](./451-sort-characters-by-frequency/index.ts)
 - [最小操作次数使数组元素相等](./453-minimun-moves-to-equal-array-elements/index.ts)
 - [最大连续 1 的个数](./485-max-consecutive-ones/index.ts)
 
@@ -84,6 +86,7 @@
 - [三个数的最大乘积](./628-maximum-product-of-three-numbers/index.ts)
 
 - [错误的集合](./645-set-mismatch/index.ts)
+- [机器人能否返回原点](./657-robot-return-to-origin/index.ts)
 - [图片平滑器](./661-image-smoother/index.ts)
 - [非递减数列](./665-non-descreasing-array/index.ts)
 - [数组的度](./697-degree-of-an-array/index.ts)
