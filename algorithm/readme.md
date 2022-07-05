@@ -76,6 +76,7 @@
 - [对角线遍历](./498-diagonal-traverse/index.ts)
 - [检查大写字母](./520-detect-capital/index.ts)
 - [反转字符串 II](./541-reverse-string-ii/index.ts)
+- [学生出勤记录 I](./551-student-attendance-record-i/index.ts)
 - [反转字符串中的单词 III](./557-reverse-words-in-a-string-iii/index.ts)
 - [重塑矩阵](./566-reshape-the-matrix/index.ts)
 - [范围求和 II](./598-range-addition-ii/index.ts)
