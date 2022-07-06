@@ -88,6 +88,7 @@
 - [机器人能否返回原点](./657-robot-return-to-origin/index.ts)
 - [图片平滑器](./661-image-smoother/index.ts)
 - [非递减数列](./665-non-descreasing-array/index.ts)
+- [计数二进制字串](./696-count-binary-substring/index.ts)
 - [数组的度](./697-degree-of-an-array/index.ts)
 
 - [提莫攻击](./746-min-cost-climbing-stairs/index.ts)
