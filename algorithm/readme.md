@@ -53,6 +53,7 @@
 - [H 指数](./274-h-index/index.ts)
 - [移动零](./283-move-zeroes/index.ts)
 - [生命游戏](./289-game-of-life/index.ts)
+- [猜数字游戏](./299-bulls-and-cows/index.ts)
 
 - [区域和检索](./303-range-sum-query-mutable/index.ts)
 - [二维区域和检索 - 矩阵不可变](./304-range-sum-query-2d-immutable/index.ts)
