@@ -64,6 +64,7 @@
 - [找不同](./389-find-the-difference/index.ts)
 - [旋转函数](./396-rotate-function/index.ts)
 
+- [Fizz Buzz](./412-fizz-buzz/index.ts)
 - [第三大的数](./414-third-maximun-number/index.ts)
 - [甲板上的战舰](./419-battleships-in-a-board/index.ts)
 - [从英文中重建数字](./423-reconstruct-orginal-digits-from-english/index.ts)
