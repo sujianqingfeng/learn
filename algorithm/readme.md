@@ -79,6 +79,7 @@
 - [最大连续 1 的个数](./485-max-consecutive-ones/index.ts)
 
 - [对角线遍历](./498-diagonal-traverse/index.ts)
+- [相对名次](./506-relative-ranks/index.ts)
 - [检查大写字母](./520-detect-capital/index.ts)
 - [最小时间差](./539-minimum-time-difference/index.ts)
 - [反转字符串 II](./541-reverse-string-ii/index.ts)
