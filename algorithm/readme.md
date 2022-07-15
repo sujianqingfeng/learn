@@ -16,6 +16,7 @@
 - [最长公共前缀](./14-longest-common-prefix/index.ts)
 - [三数之和](./15-3sum/index.ts)
 - [最接近的三数之和](./16-3sum-closest/index.ts)
+- [有效的括号](./20-valid-parentheses/index.ts)
 
 - [删除有序数组中的重复项](./26-remove-duplicates/index.ts)
 - [移除元素](./27-remove-element/index.ts)
