@@ -34,6 +34,7 @@
 
 - [最后一个单词的长度](./58-length-of-last-word/index.ts)
 - [螺旋矩阵 II](./59-spiral-matrix-ii/index.ts)
+- [加一](./66-plus-one/index.ts)
 
 - [矩阵置零](./73-set-matrix-zeroes/index.ts)
 
