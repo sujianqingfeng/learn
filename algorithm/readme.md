@@ -74,6 +74,7 @@
 - [字符串中的单词数](./434-number-of-segments-in-a-string/index.ts)
 
 - [数组中重复的数据](./442-find-all-duplicates-in-an-array/index.ts)
+- [压缩字符串](./443-string-compression/index.ts)
 
 - [找到所有数字中消失的数字](./448-find-disappeared-numbers/index.ts)
 - [根据字符出现频率排序](./451-sort-characters-by-frequency/index.ts)
