@@ -81,6 +81,7 @@
 - [根据字符出现频率排序](./451-sort-characters-by-frequency/index.ts)
 - [最小操作次数使数组元素相等](./453-minimun-moves-to-equal-array-elements/index.ts)
 - [环绕字符串中唯一的子字符串](./467-unique-substrings-in-wraparound-string/index.ts)
+- [神奇字符串](./481-magical-string/index.ts)
 - [最大连续 1 的个数](./485-max-consecutive-ones/index.ts)
 
 - [对角线遍历](./498-diagonal-traverse/index.ts)
