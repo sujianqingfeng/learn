@@ -1,4 +1,4 @@
-# Hot 100
+# List 
 
 - [两数之和](./1-two-sum/index.ts)
 - [两数相加](./2-add-two-numbers/index.ts)
@@ -66,6 +66,7 @@
 - [赎金信](./383-ransom-note/index.t)
 - [字符串中的第一个唯一字符](./387-first-unique-character-in-a-string/index.ts)
 - [找不同](./389-find-the-difference/index.ts)
+- [判断子序列](./392-is-subsequence/index.ts)
 - [旋转函数](./396-rotate-function/index.ts)
 
 - [Fizz Buzz](./412-fizz-buzz/index.ts)
