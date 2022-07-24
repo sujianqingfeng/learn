@@ -81,6 +81,7 @@
 - [找到所有数字中消失的数字](./448-find-disappeared-numbers/index.ts)
 - [根据字符出现频率排序](./451-sort-characters-by-frequency/index.ts)
 - [最长特殊子序列](./521-longest-uncommon-subsequence-i/index.ts)
+- [最长特殊序列 II](./522-longest-uncommon-subsequence-ii/index.ts)
 - [通过删除字母匹配到字典里最长单词](./524-longest-word-in-dictionary-through-deleting/index.ts)
 
 - [最小操作次数使数组元素相等](./453-minimun-moves-to-equal-array-elements/index.ts)
