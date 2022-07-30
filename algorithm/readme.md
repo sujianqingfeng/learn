@@ -37,6 +37,7 @@
 - [螺旋矩阵 II](./59-spiral-matrix-ii/index.ts)
 - [加一](./66-plus-one/index.ts)
 - [二进制求和](./67-add-binary/index.ts)
+- [文本左右对齐](./68-text-justification/index.ts)
 
 - [矩阵置零](./73-set-matrix-zeroes/index.ts)
 

@@ -2,7 +2,7 @@ import { describe, it, expect } from "vitest"
 
 import { licenseKeyFormatting } from "../index"
 
-describe.only("license-key-formatting", () => {
+describe("license-key-formatting", () => {
   it("1", () => {
     const S = "2-5g-3-J",
       k = 2

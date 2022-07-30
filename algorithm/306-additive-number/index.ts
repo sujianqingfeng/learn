@@ -9,8 +9,6 @@ export function isAdditiveNumber(num: string) {
 
     let current = 0
     for (let i = index; i < n; i++) {
-      console.log("start")
-
       const cC = +num[i]
 
       // 0 不能作为前导数 但是可以作为本身

@@ -2,7 +2,7 @@ import { describe, it, expect } from "vitest"
 
 import { reverseStr } from "../index"
 
-describe.only("reverse-str-ii", () => {
+describe("reverse-str-ii", () => {
   it("1", () => {
     const s = "abcdefg",
       k = 2
