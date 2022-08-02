@@ -112,6 +112,7 @@
 - [三个数的最大乘积](./628-maximum-product-of-three-numbers/index.ts)
 
 - [错误的集合](./645-set-mismatch/index.ts)
+- [回文子串](./647-palidromic-substrings/index.ts)
 - [机器人能否返回原点](./657-robot-return-to-origin/index.ts)
 - [图片平滑器](./661-image-smoother/index.ts)
 - [非递减数列](./665-non-descreasing-array/index.ts)
