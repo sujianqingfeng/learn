@@ -20,6 +20,7 @@
 
 - [删除有序数组中的重复项](./26-remove-duplicates/index.ts)
 - [移除元素](./27-remove-element/index.ts)
+- [实现strStr](./28-implement-strstr/index.ts)
 
 - [在排序数组中查找元素的第一个和最后一个位置](./34-find-first-and-last-position-of-element-in-sorted-array/index.ts)
 - [搜索插入的位置](./35-search-insert-position/index.ts)
