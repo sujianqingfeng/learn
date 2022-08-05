@@ -71,6 +71,7 @@
 - [二维区域和检索 - 矩阵不可变](./304-range-sum-query-2d-immutable/index.ts)
 - [累加数](./306-additive-number/index.ts)
 
+- [4的幂](./342-power-of-four/index.ts)
 - [反转字符串](./344-reverse-string/index.ts)
 - [赎金信](./383-ransom-note/index.t)
 - [字符串中的第一个唯一字符](./387-first-unique-character-in-a-string/index.ts)
