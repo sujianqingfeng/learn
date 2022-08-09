@@ -1,4 +1,8 @@
-function map(fun, thisArgs) {
+function map(
+  this: any[],
+  fun: (c: any, i?: any, o?: any) => any,
+  thisArgs: any
+) {
   const length = this.length
 
   let index = 0
