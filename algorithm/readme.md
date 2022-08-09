@@ -132,3 +132,8 @@
 - [二分查找](./704-binary-search/index.ts)
 
 - [有序数组的平方](./977-squares-of-a-sorted-array/index.ts)
+
+
+## offer 100
+
+- [数组中重复的数字](./offer-3-repeat-number/index.ts)
