@@ -1,3 +1,17 @@
 {
-  "cSpell.words": ["nums"]
+  "cSpell.words": ["nums"],
+  "prettier.enable": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact",
+    "vue",
+    "json",
+    "jsonc",
+    "json5"
+  ]
 }
