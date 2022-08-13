@@ -140,3 +140,4 @@
 - [二维数组中的查找](./offer-4-find-number-in-2d-array/index.ts)
 - [替换空格](./offer-5-replace-space/index.ts)
 - [从尾到头打印链表](./offer-6-reverse-print/index.ts)
+- [用两个栈实现队列](./offer-9-c-queue/index.ts)
