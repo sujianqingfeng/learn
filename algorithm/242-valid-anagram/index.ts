@@ -6,7 +6,7 @@ export function isAnagram(s: string, t: string) {
 
   // codePointAt() 方法返回 一个 Unicode 编码点值的非负整数。
   const res = Array(26).fill(0)
-  const aCode = "a".codePointAt(0)!
+  const aCode = 'a'.codePointAt(0)!
 
   for (const ch of s) {
     res[ch.codePointAt(0)! - aCode]++

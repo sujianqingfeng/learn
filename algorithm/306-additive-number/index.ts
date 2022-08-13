@@ -12,7 +12,7 @@ export function isAdditiveNumber(num: string) {
       const cC = +num[i]
 
       // 0 不能作为前导数 但是可以作为本身
-      if (num[index] === "0" && i > index) {
+      if (num[index] === '0' && i > index) {
         return false
       }
 

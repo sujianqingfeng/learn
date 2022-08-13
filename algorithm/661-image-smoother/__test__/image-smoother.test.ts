@@ -1,9 +1,9 @@
-import { describe, it, expect } from "vitest"
+import { describe, it, expect } from 'vitest'
 
-import { imageSmoother } from "../index"
+import { imageSmoother } from '../index'
 
-describe("image-smoother", () => {
-  it("1", () => {
+describe('image-smoother', () => {
+  it('1', () => {
     const img = [
       [100, 200, 100],
       [200, 50, 200],

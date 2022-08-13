@@ -1,8 +1,8 @@
-import { test, expect } from "vitest"
+import { test, expect } from 'vitest'
 
-import { isPowerThree } from "../index"
+import { isPowerThree } from '../index'
 
-test("power-of-three", () => {
+test('power-of-three', () => {
   const n = 27
   const result = isPowerThree(n)
   expect(result).toEqual(true)

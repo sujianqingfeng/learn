@@ -1,9 +1,9 @@
-import { describe, it, expect } from "vitest"
+import { describe, it, expect } from 'vitest'
 
-import { minSubArrayLen } from "../index"
+import { minSubArrayLen } from '../index'
 
-describe("min-sub-array-len", () => {
-  it("1", () => {
+describe('min-sub-array-len', () => {
+  it('1', () => {
     const target = 7,
       nums = [2, 3, 1, 2, 4, 3]
     const res = 2

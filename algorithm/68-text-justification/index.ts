@@ -24,14 +24,14 @@ export function fullJustify(words: string[], maxWidth: number) {
   }
 
   // 最后一行
-  ans.push(tempWords.join(" ").padEnd(maxWidth, " "))
+  ans.push(tempWords.join(' ').padEnd(maxWidth, ' '))
 
   return ans
 
   function full(tempWords: string[], tempLength: number, maxWidth: number) {
     const n = tempWords.length
     // 只有一个
-    if (n === 1) return tempWords[0].padEnd(maxWidth, " ")
+    if (n === 1) { return tempWords[0].padEnd(maxWidth, ' ') }
 
     // 空格区间数量
     const spaceIntervalNum = n - 1
@@ -43,24 +43,24 @@ export function fullJustify(words: string[], maxWidth: number) {
     const spaceIntervalItemNum = Math.floor(spaceTotal / spaceIntervalNum)
 
     // 存放空格
-    const spaces = Array(spaceIntervalNum).fill(" ")
+    const spaces = Array(spaceIntervalNum).fill(' ')
 
     spaces.forEach((space, index) => {
-      spaces[index] = space + " ".repeat(spaceIntervalItemNum)
+      spaces[index] = space + ' '.repeat(spaceIntervalItemNum)
     })
 
     // 剩余空格
     let remainSpace = spaceTotal % spaceIntervalNum
     // 如果有多的空格 就从左边往右一次添加
     while (remainSpace) {
-      spaces[--remainSpace] += " "
+      spaces[--remainSpace] += ' '
     }
     // 因为跟 tempWord 数量对不上 所以加一个
-    spaces.push("")
+    spaces.push('')
 
     const line = spaces.reduce((p, c, i) => {
       return p + tempWords[i] + c
-    }, "")
+    }, '')
 
     return line
   }

@@ -1,5 +1,0 @@
-
-
-interface Function {
-  newCall()
-}

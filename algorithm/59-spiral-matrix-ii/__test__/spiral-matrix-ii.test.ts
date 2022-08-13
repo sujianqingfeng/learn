@@ -1,9 +1,9 @@
-import { describe, it, expect } from "vitest"
+import { describe, it, expect } from 'vitest'
 
-import { generateMatrix } from "../index"
+import { generateMatrix } from '../index'
 
-describe("spiral-matrix-ii ", () => {
-  it("1", () => {
+describe('spiral-matrix-ii ', () => {
+  it('1', () => {
     const n = 3
     const res = [
       [1, 2, 3],

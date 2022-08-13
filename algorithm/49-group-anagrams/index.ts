@@ -1,7 +1,7 @@
 // 49. 字母异位词分组
 export function groupAnagrams(strs: string[]) {
   const getKey = (str: string) => {
-    return str.split("").sort().join("")
+    return str.split('').sort().join('')
   }
 
   const map = new Map<string, string[]>()

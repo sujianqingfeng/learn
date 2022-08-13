@@ -1,6 +1,6 @@
 // 43. 字符串相乘
 export function multiply(num1: string, num2: string) {
-  if (num1 === "0" || num2 === "0") return "0"
+  if (num1 === '0' || num2 === '0') { return '0' }
   const n = num1.length
   const m = num2.length
 
@@ -23,5 +23,5 @@ export function multiply(num1: string, num2: string) {
     break
   }
 
-  return ans.join("")
+  return ans.join('')
 }

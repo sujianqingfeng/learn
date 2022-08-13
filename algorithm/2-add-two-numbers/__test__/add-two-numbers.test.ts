@@ -1,9 +1,9 @@
-import { describe, it, expect } from "vitest";
+import { describe, it, expect } from 'vitest'
 
-import { addTwoNumbers, ListNode } from "../index";
+import { addTwoNumbers, ListNode } from '../index'
 
-describe("addTwoNumbers", () => {
-  it("1", () => {
+describe('addTwoNumbers', () => {
+  it('1', () => {
     const l1: ListNode = {
       val: 2,
       next: {
@@ -12,7 +12,7 @@ describe("addTwoNumbers", () => {
           val: 5,
         },
       },
-    };
+    }
 
     const l2: ListNode = {
       val: 5,
@@ -22,9 +22,9 @@ describe("addTwoNumbers", () => {
           val: 4,
         },
       },
-    };
+    }
 
-    const result = addTwoNumbers(l1, l2);
+    const result = addTwoNumbers(l1, l2)
 
     const r: ListNode = {
       val: 7,
@@ -37,8 +37,8 @@ describe("addTwoNumbers", () => {
           },
         },
       },
-    };
+    }
 
-    expect(result).toEqual(r);
-  });
-});
+    expect(result).toEqual(r)
+  })
+})

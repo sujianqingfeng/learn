@@ -20,5 +20,5 @@ export function reverseStr(s: string, k: number) {
     reverse(arr, i, Math.min(i + k, n) - 1)
   }
 
-  return arr.join("")
+  return arr.join('')
 }

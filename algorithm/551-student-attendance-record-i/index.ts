@@ -6,14 +6,14 @@ export function checkRecord(s: string) {
   for (let i = 0; i < n; i++) {
     const ch = s[i]
 
-    if (ch === "A") {
+    if (ch === 'A') {
       a++
       if (a >= 2) {
         return false
       }
-    } else if (ch === "L") {
+    } else if (ch === 'L') {
       let j = i
-      while (j < n && s[j] === "L") {
+      while (j < n && s[j] === 'L') {
         j++
       }
 

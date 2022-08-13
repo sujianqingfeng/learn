@@ -9,7 +9,7 @@ export function frequencySort(s: string) {
     max = Math.max(max, count)
   }
 
-  const buckets = new Array(max + 1).fill(0).map(() => new Array())
+  const buckets = new Array(max + 1).fill(0).map(() => [])
 
   // 相同次数的字符放到一起
   for (const [ch, count] of mp.entries()) {
@@ -29,5 +29,5 @@ export function frequencySort(s: string) {
     })
   }
 
-  return ret.join("")
+  return ret.join('')
 }

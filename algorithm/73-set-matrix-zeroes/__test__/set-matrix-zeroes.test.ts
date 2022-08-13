@@ -1,9 +1,9 @@
-import { describe, it, expect } from "vitest"
+import { describe, it, expect } from 'vitest'
 
-import { setZeroes } from "../index"
+import { setZeroes } from '../index'
 
-describe("set-matrix-zeroes", () => {
-  it("1", () => {
+describe('set-matrix-zeroes', () => {
+  it('1', () => {
     const matrix = [
       [1, 1, 1],
       [1, 0, 1],

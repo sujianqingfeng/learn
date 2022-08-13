@@ -44,5 +44,5 @@ export function minWindow(s: string, t: string) {
     j++
   }
 
-  return size === Number.MAX_VALUE ? "" : s.substring(start, start + size)
+  return size === Number.MAX_VALUE ? '' : s.substring(start, start + size)
 }

@@ -1,10 +1,10 @@
 const isLower = (c: string) => {
-  return c >= "a" && c <= "z"
+  return c >= 'a' && c <= 'z'
 }
 // 520. 检测大写字母
 export function detectCapitalUse(word: string) {
-  if (word.toUpperCase() === word) return true
-  if (word.toLowerCase() === word) return true
+  if (word.toUpperCase() === word) { return true }
+  if (word.toLowerCase() === word) { return true }
 
   const n = word.length
   let idx = 1

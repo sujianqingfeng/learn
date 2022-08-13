@@ -1,7 +1,7 @@
 // 524. 通过删除字母匹配到字典里最长单词
 export function findLongestWord(s: string, dictionary: string[]) {
   dictionary = dictionary.sort()
-  let longest = ""
+  let longest = ''
 
   for (const cur of dictionary) {
     if (find(s, cur) && cur.length > longest.length) {

@@ -1,7 +1,7 @@
 // 535. TinyURL 的加密与解密
-const STR = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+const STR = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890'
 const K = 6
-const PREFIX = "https://tinyurl.com/"
+const PREFIX = 'https://tinyurl.com/'
 const originToShort = new Map()
 const shortToOrigin = new Map()
 const getKey = (n: number) => {
@@ -10,7 +10,7 @@ const getKey = (n: number) => {
     const r = ~~(Math.random() * STR.length)
     temp[i] = STR[r]
   }
-  return temp.join("")
+  return temp.join('')
 }
 
 export function encode(url: string) {

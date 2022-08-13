@@ -1,5 +1,4 @@
 function map(
-  this: any[],
   fun: (c: any, i?: any, o?: any) => any,
   thisArgs: any
 ) {
@@ -8,11 +7,11 @@ function map(
   let index = 0
   const newArray = new Array(length)
 
-  const original = this
+  const self = this
 
   while (index < length) {
-    const current = original[index]
-    newArray[index] = fun.call(thisArgs, current, index, original)
+    const current = self[index]
+    newArray[index] = fun.call(thisArgs, current, index, self)
     index++
   }
 

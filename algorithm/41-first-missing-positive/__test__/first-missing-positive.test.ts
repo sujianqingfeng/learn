@@ -1,9 +1,9 @@
-import { describe, it, expect } from "vitest"
+import { describe, it, expect } from 'vitest'
 
-import { firstMissingPositive } from "../index"
+import { firstMissingPositive } from '../index'
 
-describe("first-missing-positive", () => {
-  it("1", () => {
+describe('first-missing-positive', () => {
+  it('1', () => {
     const nums = [7, 8, 9, 11, 12]
     const res = 1
     const result = firstMissingPositive(nums)

@@ -1,9 +1,9 @@
-import { describe, it, expect } from "vitest"
+import { describe, it, expect } from 'vitest'
 
-import { findNumberIn2DArray } from "../index"
+import { findNumberIn2DArray } from '../index'
 
-describe("find-number-in-2d-array", () => {
-  it("1", () => {
+describe('find-number-in-2d-array', () => {
+  it('1', () => {
     const matrix = [
       [1, 4, 7, 11, 15],
       [2, 5, 8, 12, 19],

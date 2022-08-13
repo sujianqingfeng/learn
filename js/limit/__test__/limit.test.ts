@@ -1,15 +1,15 @@
-import { describe, it, expect } from "vitest"
+import { describe, it, expect } from 'vitest'
 
-import { createLimitAll } from "../index"
+import { createLimitAll } from '../index'
 
-describe("limit", () => {
-  it("resolve", async () => {
+describe('limit', () => {
+  it('resolve', async () => {
     const { addTask, run } = createLimitAll(5)
     const excepts: any = []
 
     const createTask = (i: number) => {
       excepts.push(i)
-      return new Promise((resolve, reject) => {
+      return new Promise((resolve) => {
         setTimeout(() => {
           resolve(i)
         }, 1000)

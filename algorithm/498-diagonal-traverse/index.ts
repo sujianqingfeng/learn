@@ -24,7 +24,7 @@ export function findDiagonalOrder(mat: number[][]) {
     }
     i++
 
-    if (i >= m + n) break
+    if (i >= m + n) { break }
 
     let y2 = i < n ? i : n - 1
     let x2 = i - y2

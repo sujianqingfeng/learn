@@ -5,15 +5,15 @@ export function optimalDivision(nums: number[]) {
 
   for (const num of nums) {
     ans.push(num)
-    ans.push("/")
+    ans.push('/')
   }
   ans.pop()
 
   if (n > 2) {
-    const index = ans.findIndex((item) => item === "/")
-    ans.splice(index + 1, 0, "(")
-    ans.push(")")
+    const index = ans.findIndex((item) => item === '/')
+    ans.splice(index + 1, 0, '(')
+    ans.push(')')
   }
 
-  return ans.join("")
+  return ans.join('')
 }

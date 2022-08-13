@@ -1,9 +1,9 @@
-import { describe, it, expect } from "vitest"
+import { describe, it, expect } from 'vitest'
 
-import { matrixReshape } from "../index"
+import { matrixReshape } from '../index'
 
-describe("reshape-the-matrix", () => {
-  it("1", () => {
+describe('reshape-the-matrix', () => {
+  it('1', () => {
     const mat = [
         [1, 2],
         [3, 4],

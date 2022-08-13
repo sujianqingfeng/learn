@@ -1,6 +1,6 @@
 // 342. 4的幂
 export function isPowerOfFour(n: number) {
-  if (n <= 0) return false
+  if (n <= 0) { return false }
 
   const ans = ~~Math.sqrt(n)
 

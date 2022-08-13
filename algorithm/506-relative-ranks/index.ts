@@ -1,7 +1,7 @@
 // 506. 相对名次
 export function findRelativeRanks(score: number[]) {
   const n = score.length
-  const desc = ["Gold Medal", "Silver Medal", "Bronze Medal"]
+  const desc = ['Gold Medal', 'Silver Medal', 'Bronze Medal']
 
   const mp = Array(n)
     .fill(0)
@@ -19,7 +19,7 @@ export function findRelativeRanks(score: number[]) {
   const ans = Array(n).fill(0)
   for (let i = 0; i < n; i++) {
     if (i >= 3) {
-      ans[mp[i][1]] = i + 1 + ""
+      ans[mp[i][1]] = `${i + 1  }`
     } else {
       ans[mp[i][1]] = desc[i]
     }

@@ -5,7 +5,7 @@ export function findMinDifference(timePoints: string[]) {
   }
 
   const getM = (str: string) => {
-    const [h, m] = str.split(":")
+    const [h, m] = str.split(':')
     return +h * 60 + +m
   }
   timePoints.sort()

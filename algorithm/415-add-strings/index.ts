@@ -19,5 +19,5 @@ export function addString(num1: string, num2: string) {
     ans.unshift(add)
   }
 
-  return ans.join("")
+  return ans.join('')
 }

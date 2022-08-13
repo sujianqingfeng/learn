@@ -1,9 +1,9 @@
-import { describe, it, expect } from "vitest"
+import { describe, it, expect } from 'vitest'
 
-import { rotate } from "../index"
+import { rotate } from '../index'
 
-describe("rotate", () => {
-  it("1", () => {
+describe('rotate', () => {
+  it('1', () => {
     const matrix = [
       [1, 2, 3],
       [4, 5, 6],

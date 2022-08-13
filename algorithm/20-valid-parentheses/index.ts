@@ -1,8 +1,8 @@
 export function isValid(s: string) {
   const map: Record<string, string> = {
-    ")": "(",
-    "]": "[",
-    "}": "{",
+    ')': '(',
+    ']': '[',
+    '}': '{',
   }
   const stack: string[] = []
 

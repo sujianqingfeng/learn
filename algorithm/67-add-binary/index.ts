@@ -18,5 +18,5 @@ export function addBinary(a: string, b: string) {
     ans.unshift(1)
   }
 
-  return ans.join("")
+  return ans.join('')
 }

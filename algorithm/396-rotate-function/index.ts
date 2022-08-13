@@ -1,8 +1,8 @@
 // 396. 旋转函数
 export function maxRotateFunction(nums: number[]) {
   let f = 0,
-    sum = 0,
-    n = nums.length
+    sum = 0
+  const  n = nums.length
 
   for (let i = 0; i < n; i++) {
     sum += nums[i]

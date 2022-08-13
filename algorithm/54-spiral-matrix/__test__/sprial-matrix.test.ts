@@ -1,9 +1,9 @@
-import { describe, it, expect } from "vitest"
+import { describe, it, expect } from 'vitest'
 
-import { spiralOrder } from "../index"
+import { spiralOrder } from '../index'
 
-describe("spiral-order", () => {
-  it("1", () => {
+describe('spiral-order', () => {
+  it('1', () => {
     const matrix = [
       [1, 2, 3],
       [4, 5, 6],

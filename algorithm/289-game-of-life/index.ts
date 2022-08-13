@@ -39,13 +39,13 @@ export function gameOfLife(board: number[][]) {
   count = 0
   for (let i = 0; i < m; i++) {
     for (let j = 0; j < n; j++) {
-      const [c, a, d] = map[count]
+      const [c, a] = map[count]
       if (c === 0 && a === 3) {
         board[i][j] = 1
       }
 
       if (c === 1) {
-        if (a < 2) [(board[i][j] = 0)]
+        if (a < 2) { [(board[i][j] = 0)] }
         if (a === 2 || a === 3) {
           board[i][j] = 1
         }

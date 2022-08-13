@@ -1,9 +1,9 @@
-import { describe, it, expect } from "vitest"
+import { describe, it, expect } from 'vitest'
 
-import { NumMatrix } from "../index"
+import { NumMatrix } from '../index'
 
-describe("range-sum-query-2d-immutable", () => {
-  it("1", () => {
+describe('range-sum-query-2d-immutable', () => {
+  it('1', () => {
     const matrix = [
       [3, 0, 1, 4, 2],
       [5, 6, 3, 2, 1],

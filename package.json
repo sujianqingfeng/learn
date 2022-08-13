@@ -2,33 +2,29 @@
   "name": "learn",
   "version": "1.0.0",
   "description": "learn note",
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/sujianqingfeng/learn#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sujianqingfeng/learn.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sujianqingfeng/learn/issues"
+  },
   "main": "index.js",
   "scripts": {
     "test": "vitest",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sujianqingfeng/learn.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sujianqingfeng/learn/issues"
-  },
-  "homepage": "https://github.com/sujianqingfeng/learn#readme",
-  "devDependencies": {
-    "@sujian/eslint-config-basic": "^0.0.4",
-    "eslint": "^8.21.0",
-    "vitest": "^0.15.1",
-    "esno": "^0.16.3",
-    "typescript": "^4.2.4"
-  },
   "dependencies": {
-    "axios": "^0.21.1",
-    "crypto-js": "^4.1.1",
-    "jsencrypt": "^3.2.1",
-    "node-jsencrypt": "^1.0.0"
+    "@sujian/eslint-config-typescript": "^0.0.8"
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0",
+    "esno": "^0.16.3",
+    "typescript": "^4.2.4",
+    "vitest": "^0.21.1"
   }
 }

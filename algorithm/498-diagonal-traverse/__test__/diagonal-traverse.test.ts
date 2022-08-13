@@ -1,9 +1,9 @@
-import { describe, it, expect } from "vitest"
+import { describe, it, expect } from 'vitest'
 
-import { findDiagonalOrder } from "../index"
+import { findDiagonalOrder } from '../index'
 
-describe("diagonal-traverse", () => {
-  it("1", () => {
+describe('diagonal-traverse', () => {
+  it('1', () => {
     const mat = [
       [1, 2, 3],
       [4, 5, 6],

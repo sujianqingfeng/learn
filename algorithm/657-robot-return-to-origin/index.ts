@@ -5,16 +5,16 @@ export function judgeCircle(moves: string) {
 
   for (const move of moves) {
     switch (move) {
-      case "L":
+      case 'L':
         x--
         break
-      case "R":
+      case 'R':
         x++
         break
-      case "U":
+      case 'U':
         y--
         break
-      case "D":
+      case 'D':
         y++
         break
     }

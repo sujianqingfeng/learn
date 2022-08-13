@@ -1,8 +1,8 @@
 // 537. 复数乘法
 export function complexNumberMultiply(num1: string, num2: string) {
   const getComplex = (str: string) => {
-    const t = str.split("+")
-    return [+t[0], +t[1].replace("i", "")]
+    const t = str.split('+')
+    return [+t[0], +t[1].replace('i', '')]
   }
 
   const complex1 = getComplex(num1)
