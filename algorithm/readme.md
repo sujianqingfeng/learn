@@ -143,3 +143,4 @@
 - [用两个栈实现队列](./offer-9-c-queue/index.ts)
 - [斐波那契数列](./offer-10-fib/index.ts)
 - [青蛙跳台阶问题](./offer-10-nums-ways/index.ts)
+- [旋转数组的最小数字](./offer-11-min-array/index.ts)
