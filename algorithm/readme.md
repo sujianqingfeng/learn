@@ -140,6 +140,7 @@
 - [二维数组中的查找](./offer-4-find-number-in-2d-array/index.ts)
 - [替换空格](./offer-5-replace-space/index.ts)
 - [从尾到头打印链表](./offer-6-reverse-print/index.ts)
+- [重建二叉树](./offer-7-build-tree/index.ts)
 - [用两个栈实现队列](./offer-9-c-queue/index.ts)
 - [斐波那契数列](./offer-10-fib/index.ts)
 - [青蛙跳台阶问题](./offer-10-nums-ways/index.ts)
