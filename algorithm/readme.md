@@ -147,3 +147,4 @@
 - [旋转数组的最小数字](./offer-11-min-array/index.ts)
 - [矩阵中的路径](./offer-12-exist-word/index.ts)
 - [剪绳子i](./offer-14-cut-rope-i/index.ts)
+- [二进制中1的个数](./offer-15-hamming-weight/index.ts)
