@@ -148,4 +148,5 @@
 - [矩阵中的路径](./offer-12-exist-word/index.ts)
 - [剪绳子i](./offer-14-cut-rope-i/index.ts)
 - [二进制中1的个数](./offer-15-hamming-weight/index.ts)
+- [数值的整数次方](./offer-16-my-pow/index.ts)
 - [打印从1到最大的n位](./offer-17-print-numbers/index.ts)
