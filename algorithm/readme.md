@@ -152,3 +152,4 @@
 - [打印从1到最大的n位](./offer-17-print-numbers/index.ts)
 - [删除链表的节点](./offer-18-delete-node/index.ts)
 - [调整数组顺序使奇数位于偶数前面](./offer-21-exchange/index.ts)
+- [反转链表](./offer-24-reverse-list/index.ts)
