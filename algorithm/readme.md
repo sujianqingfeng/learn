@@ -154,3 +154,4 @@
 - [调整数组顺序使奇数位于偶数前面](./offer-21-exchange/index.ts)
 - [链表中倒数第k个节点](./offer-22-get-kth-from-end/index.ts)
 - [反转链表](./offer-24-reverse-list/index.ts)
+- [合并两个排序的链表](./offer-25-merge-two-lists/index.ts)

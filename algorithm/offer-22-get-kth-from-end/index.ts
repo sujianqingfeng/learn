@@ -1,4 +1,3 @@
-
 export class ListNode {
   val: number
   next: ListNode | null
@@ -20,7 +19,6 @@ export function getKthFromEnd(head:ListNode | null, k:number) {
     first = first.next
     end = end.next
   }
-  console.log(end)
 
   return end
 }
