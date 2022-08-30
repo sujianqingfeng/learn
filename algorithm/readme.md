@@ -157,3 +157,4 @@
 - [合并两个排序的链表](./offer-25-merge-two-lists/index.ts)
 - [二叉树的镜像](./offer-27-mirror-tree/index.ts)
 - [对称的二叉树](./offer-28-is-symmetric/index.ts)
+- [顺时针打印矩阵](./offer-29-spiral-order/index.ts)
