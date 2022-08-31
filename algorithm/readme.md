@@ -158,3 +158,4 @@
 - [二叉树的镜像](./offer-27-mirror-tree/index.ts)
 - [对称的二叉树](./offer-28-is-symmetric/index.ts)
 - [顺时针打印矩阵](./offer-29-spiral-order/index.ts)
+- [包含min函数的栈](./offer-30-min-stack/index.ts)
