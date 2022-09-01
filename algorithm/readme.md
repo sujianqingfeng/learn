@@ -57,6 +57,7 @@
 
 - [长度最小的子数组](./209-minimun-size-subarray-sum/index.ts)
 
+- [存在重复元素](./217-contains-duplicate/index.ts)
 - [2的幂](./231-power-of-two/index.ts)
 - [除自身以外数组的乘积](./238-product-of-array-except-self/index.ts)
 
