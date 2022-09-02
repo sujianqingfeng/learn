@@ -152,6 +152,7 @@
 - [数值的整数次方](./offer-16-my-pow/index.ts)
 - [打印从1到最大的n位](./offer-17-print-numbers/index.ts)
 - [删除链表的节点](./offer-18-delete-node/index.ts)
+- [表示数值的字符串](./offer-20-is-number/index.ts)
 - [调整数组顺序使奇数位于偶数前面](./offer-21-exchange/index.ts)
 - [链表中倒数第k个节点](./offer-22-get-kth-from-end/index.ts)
 - [反转链表](./offer-24-reverse-list/index.ts)
