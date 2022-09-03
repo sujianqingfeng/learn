@@ -157,6 +157,7 @@
 - [链表中倒数第k个节点](./offer-22-get-kth-from-end/index.ts)
 - [反转链表](./offer-24-reverse-list/index.ts)
 - [合并两个排序的链表](./offer-25-merge-two-lists/index.ts)
+- [树的子结构](./offer-26-is-sub-structure/index.ts)
 - [二叉树的镜像](./offer-27-mirror-tree/index.ts)
 - [对称的二叉树](./offer-28-is-symmetric/index.ts)
 - [顺时针打印矩阵](./offer-29-spiral-order/index.ts)
