@@ -163,4 +163,5 @@
 - [顺时针打印矩阵](./offer-29-spiral-order/index.ts)
 - [包含min函数的栈](./offer-30-min-stack/index.ts)
 - [栈的压入、弹出序列](./offer-31-validate-stack-sequences/index.ts)
+- [从上到下打印二叉树 I](./offer-32-level-order-i/index.ts)
 - [从上到下打印二叉树 II](./offer-32-level-order/index.ts)
