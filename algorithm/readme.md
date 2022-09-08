@@ -166,3 +166,5 @@
 - [从上到下打印二叉树 I](./offer-32-level-order-i/index.ts)
 - [从上到下打印二叉树 II](./offer-32-level-order/index.ts)
 - [从上到下打印二叉树 III](./offer-32-level-order-iii/index.ts)
+
+- [二叉搜索树的后序遍历序列](./offer-33-verify-postorder/index.ts)
