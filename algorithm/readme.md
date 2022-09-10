@@ -169,3 +169,4 @@
 
 - [二叉搜索树的后序遍历序列](./offer-33-verify-postorder/index.ts)
 - [数组中出现次数超过一半的数字](./offer-39-majority-element/index.ts)
+- [左旋转字符串](./offer-58-reverse-left-words/index.ts)
