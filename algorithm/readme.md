@@ -55,6 +55,7 @@
 - [比较版本号](./165-compare-version-numbers/index.ts)
 - [轮转数组](./189-rotate-array/index.ts)
 
+- [反转链表](./206-reverse-list/index.ts)
 - [长度最小的子数组](./209-minimun-size-subarray-sum/index.ts)
 
 - [存在重复元素](./217-contains-duplicate/index.ts)
