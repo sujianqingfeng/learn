@@ -1,5 +1,6 @@
 
-# 设计模式
+# Design patterns 
 
-- [单例](./single/index.ts)
-- [迭代器](./iterator/index.ts)
+- [single](./single/index.ts)
+- [iterator](./iterator/index.ts)
+- [prototype](./prototype/index.ts)
