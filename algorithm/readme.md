@@ -33,6 +33,7 @@
 - [字母异位词分组](./49-group-anagrams/index.ts)
 
 - [螺旋矩阵](./54-spiral-matrix/index.ts)
+- [合并区间](./54-merge-intervals/index.ts)
 
 - [最后一个单词的长度](./58-length-of-last-word/index.ts)
 - [螺旋矩阵 II](./59-spiral-matrix-ii/index.ts)
