@@ -18,6 +18,7 @@
 - [最接近的三数之和](./16-3sum-closest/index.ts)
 - [电话号码的字母组合](./17-letter-combinations/index.ts)
 - [有效的括号](./20-valid-parentheses/index.ts)
+- [合并两个有序链表](./21-merge-two-sorted-lists/index.ts)
 - [括号生成](./22-generate-parentheses/index.ts)
 
 - [删除有序数组中的重复项](./26-remove-duplicates/index.ts)
