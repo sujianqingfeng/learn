@@ -1,6 +1,7 @@
 import { ListNode } from '../struct'
 // 21: Merge Two Sorted Lists
 export function mergeTwoLists(list1:ListNode | null, list2: ListNode | null) {
+  // 每次返回已经排好的链表
   if (list1 === null) {
     return list2
   }
