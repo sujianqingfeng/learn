@@ -10,9 +10,9 @@ export interface Token {
 }
 
 export enum NodeTypes{
-  Program,
-  CallExpression,
-  NumberLiteral
+  Program = 'Program',
+  CallExpression = 'CallExpression',
+  NumberLiteral = 'NumberLiteral'
 }
 
 export type RootNode =  {
@@ -32,3 +32,14 @@ export type CallExpressionNode =  {
 }
 
 export type ChildNode = NumberNode | CallExpressionNode
+
+type VisiterHook = {
+  enter:(node:RootNode|ChildNode, parent:RootNode | ChildNode | undefined)=>void
+  exit:(node:RootNode|ChildNode, parent:RootNode  | ChildNode | undefined)=>void
+}
+
+export type Visitor = {
+  Program?:VisiterHook
+  CallExpression?:VisiterHook,
+  NumberLiteral?:VisiterHook
+} 
