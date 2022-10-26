@@ -12,12 +12,15 @@ export interface Token {
 export enum NodeTypes{
   Program = 'Program',
   CallExpression = 'CallExpression',
-  NumberLiteral = 'NumberLiteral'
+  NumberLiteral = 'NumberLiteral',
+  ExpressionStatement = 'ExpressionStatement',
+  Identifier = 'Identifier'
 }
 
 export type RootNode =  {
   type: NodeTypes.Program
-  body:ChildNode[]
+  body:ChildNode[],
+  context?:ChildNode[]
 }
 
 export type NumberNode =  {
@@ -25,21 +28,44 @@ export type NumberNode =  {
   value:string
 }
 
+export type CallExpressionCalleeNode = {
+  type: NodeTypes.Identifier,
+  name:string
+}
+
 export type CallExpressionNode =  {
   type: NodeTypes.CallExpression
   name:string
-  params:ChildNode[]
+  params:ChildNode[],
+  context?:ChildNode[],
+  arguments?:ChildNode[],
+  callee?:CallExpressionCalleeNode 
 }
 
-export type ChildNode = NumberNode | CallExpressionNode
+export type CallExpressionTransformerNode = {
+  type: NodeTypes.CallExpression
+}
+
+export type ExpressionStatementNode = {
+  type: NodeTypes.ExpressionStatement,
+  expression: CallExpressionNode 
+}
+
+export type ChildNode = NumberNode | CallExpressionNode | ExpressionStatementNode
+
+export type ParentNode = RootNode | CallExpressionNode | undefined
+
+type HookFn = (node:RootNode|ChildNode, parent?:ParentNode)=>void 
 
 type VisiterHook = {
-  enter:(node:RootNode|ChildNode, parent:RootNode | ChildNode | undefined)=>void
-  exit:(node:RootNode|ChildNode, parent:RootNode  | ChildNode | undefined)=>void
+  enter: HookFn
+  exit?:HookFn
 }
 
 export type Visitor = {
   Program?:VisiterHook
   CallExpression?:VisiterHook,
-  NumberLiteral?:VisiterHook
+  NumberLiteral?:VisiterHook,
+  ExpressionStatement?:VisiterHook
+  Identifier?:VisiterHook
 } 

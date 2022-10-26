@@ -3,7 +3,8 @@ import { CallExpressionNode, NodeTypes, NumberNode, RootNode, Token, TokenTypes 
 const createRootNode = ():RootNode => {
   return {
     type: NodeTypes.Program,
-    body: []
+    body: [],
+    context: []
   }
 }
 
@@ -18,7 +19,9 @@ const createCallExpressionNode = (name:string) :CallExpressionNode => {
   return {
     type: NodeTypes.CallExpression,
     name,
-    params: []
+    params: [],
+    context: [],
+    arguments: [],
   }
 }
 
@@ -58,4 +61,10 @@ export function parser(tokens:Token[]) {
   }
 
   return rootNode
+}
+
+export {
+  createRootNode,
+  createCallExpressionNode,
+  createNumberNode
 }

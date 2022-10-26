@@ -1,14 +1,14 @@
-import {  ChildNode, NodeTypes, RootNode, Visitor } from './types'
+import {  ChildNode, NodeTypes, RootNode, Visitor, ParentNode } from './types'
 
 export function traverse(rootNode:RootNode, visitor?:Visitor) {
 
-  function traverseArray(children:ChildNode[], parent:ChildNode | RootNode) {
+  function traverseArray(children:ChildNode[], parent:ParentNode) {
     children.forEach(child => {
       traverseNode(child, parent)
     })
   }
 
-  function traverseNode(node:RootNode | ChildNode, parent?: ChildNode | RootNode) {
+  function traverseNode(node:RootNode | ChildNode, parent?: ParentNode) {
 
     const methods = visitor?.[node.type] 
     if (methods && methods.enter) {
