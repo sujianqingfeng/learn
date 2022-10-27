@@ -22,31 +22,36 @@ test('parser', () => {
     {
       "body": [
         {
+          "arguments": [],
+          "context": [],
           "name": "add",
           "params": [
             {
-              "type": 2,
+              "type": "NumberLiteral",
               "value": "2",
             },
             {
+              "arguments": [],
+              "context": [],
               "name": "subtract",
               "params": [
                 {
-                  "type": 2,
+                  "type": "NumberLiteral",
                   "value": "4",
                 },
                 {
-                  "type": 2,
+                  "type": "NumberLiteral",
                   "value": "2",
                 },
               ],
-              "type": 1,
+              "type": "CallExpression",
             },
           ],
-          "type": 1,
+          "type": "CallExpression",
         },
       ],
-      "type": 0,
+      "context": [],
+      "type": "Program",
     }
   `)
 })
