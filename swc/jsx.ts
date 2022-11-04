@@ -1,27 +1,38 @@
-import { JSXOpeningElement, transform } from '@swc/core'
+import {  StringLiteral, transform } from '@swc/core'
 import { Visitor } from '@swc/core/Visitor'
-import type { Program, JSXElement, CallExpression } from '@swc/core'
+import type { Program, JSXElement, CallExpression, Argument, Expression, JSXOpeningElement, Node } from '@swc/core'
 
-const transformTag = (n:JSXOpeningElement) => {
+const notSupport = (n:Node) => {
+  throw new Error(`${n.type} is not support`)
+}
+
+const transformTag = (n:JSXOpeningElement): StringLiteral => {
   const { name } = n
-  if (name.type === 'Identifier') {
-    return {
-      type: 'StringLiteral',
-      value: name.value,
-      hasEscape: false,
-      span: n.span
-    }
+  switch (name.type) {
+    case 'Identifier':
+      return {
+        type: 'StringLiteral',
+        value: name.value,
+        span: n.span
+      } 
+    default:
+      return notSupport(n)
   }
+}
+
+const wrapperExpression = (arr: Expression[]) => {
+  return arr.map((item):Argument => ({ expression: item }))
 }
 
 const transformVueJsx = (program: Program) => {
 
   const transformJSXElement = (n:JSXElement) => {
-    console.log('n', n)
+    // console.log('n', n)
     
     const tag = transformTag(n.opening)
     return {
       type: 'CallExpression',
+      arguments: wrapperExpression([tag]),
       callee: {
         type: 'Identifier',
         span: n.span,

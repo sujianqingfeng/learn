@@ -4,6 +4,9 @@ import { transformJsx } from '../jsx'
 describe.only('swc', () => {
   it('jsx', async () => {
     const code = await  transformJsx('const a = <div></div>')
-    expect(code).toBe('')
+    expect(code).toMatchInlineSnapshot(`
+      "const a = h(\\"div\\");
+      "
+    `)
   })
 })
