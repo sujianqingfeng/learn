@@ -32,6 +32,7 @@
 - [缺失的数](./41-first-missing-positive/index.ts)
 - [字符串相乘](./43-multiply-strings/index.ts)
 
+- [Permutations](./46-premute/index.ts)
 - [旋转图像](./48-rotate-image/index.ts)
 - [字母异位词分组](./49-group-anagrams/index.ts)
 
