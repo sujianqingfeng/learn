@@ -51,6 +51,7 @@
 
 - [最小覆盖字串](./76-min-window/index.ts)
 - [合并两个有序数组](./88-merge-sorted-array/index.ts)
+- [94. Binary Tree Inorder Traversal](./94-binary-tree-inorder-traversal/)
 
 - [杨辉三角](./118-pascals-triangle/index.ts)
 - [杨辉三角 II](./119-pascals-triangle-ii/index.ts)
