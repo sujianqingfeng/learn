@@ -1,0 +1,70 @@
+// Vitest Snapshot v1
+
+exports[`filter-tree > 1 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "link": "/home/transcribe/cus-list/111122222",
+                  "num": 1,
+                },
+              ],
+              "link": "/home/transcribe/cus-list",
+              "num": 1,
+            },
+          ],
+          "link": "/home/transcribe",
+          "num": 1,
+        },
+      ],
+      "link": "/home",
+      "num": 1,
+    },
+  ],
+  "link": "",
+  "num": 1,
+}
+`;
+
+exports[`filter-tree > 2 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "link": "/home/transcribe/cus-xxx/111122222",
+                  "num": 1,
+                },
+                {
+                  "children": [],
+                  "link": "/home/transcribe/cus-yyy/111122222",
+                  "num": 1,
+                },
+              ],
+              "link": "/home/transcribe/cus-list",
+              "num": 2,
+            },
+          ],
+          "link": "/home/transcribe",
+          "num": 3,
+        },
+      ],
+      "link": "/home",
+      "num": 3,
+    },
+  ],
+  "link": "",
+  "num": 3,
+}
+`;
