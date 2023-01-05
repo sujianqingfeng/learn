@@ -22,7 +22,6 @@ export function filterTree(original:BadgeTree, whiteRegList:(string| string[])[]
   const nextLayerRe = whiteRegList[index+1]
 
   if (!nextLayerRe) {
-    console.log('no ---')
     ans.num = original.num
     return ans
   }
